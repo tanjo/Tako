@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A9655419B6E49900201C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9655319B6E49900201C2A /* AppDelegate.swift */; };
+		43A9655619B6E49900201C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9655519B6E49900201C2A /* ViewController.swift */; };
+		43A9655919B6E49900201C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A9655719B6E49900201C2A /* Main.storyboard */; };
+		43A9655B19B6E49900201C2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A9655A19B6E49900201C2A /* Images.xcassets */; };
+		43A9656719B6E49900201C2A /* TakoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9656619B6E49900201C2A /* TakoTests.swift */; };
+		43A9657919B6F07600201C2A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9657819B6F07600201C2A /* KeyboardViewController.swift */; };
+		43A9657C19B6F07600201C2A /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 43A9657419B6F07600201C2A /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43A9656119B6E49900201C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43A9654619B6E49900201C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A9654D19B6E49900201C2A;
+			remoteInfo = Tako;
+		};
+		43A9657A19B6F07600201C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43A9654619B6E49900201C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A9657319B6F07600201C2A;
+			remoteInfo = keyboard;
+		};
+		43A9657D19B6F07600201C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43A9654619B6E49900201C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43A9657319B6F07600201C2A;
+			remoteInfo = keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43A9658219B6F07600201C2A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				43A9657C19B6F07600201C2A /* keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43A9654E19B6E49900201C2A /* Tako.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tako.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A9655219B6E49900201C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A9655319B6E49900201C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43A9655519B6E49900201C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43A9655819B6E49900201C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A9655A19B6E49900201C2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43A9656019B6E49900201C2A /* TakoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A9656519B6E49900201C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A9656619B6E49900201C2A /* TakoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakoTests.swift; sourceTree = "<group>"; };
+		43A9657419B6F07600201C2A /* keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A9657719B6F07600201C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A9657819B6F07600201C2A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A9654B19B6E49900201C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9655D19B6E49900201C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9657119B6F07600201C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A9654519B6E49900201C2A = {
+			isa = PBXGroup;
+			children = (
+				43A9655019B6E49900201C2A /* Tako */,
+				43A9656319B6E49900201C2A /* TakoTests */,
+				43A9657519B6F07600201C2A /* keyboard */,
+				43A9654F19B6E49900201C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43A9654F19B6E49900201C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A9654E19B6E49900201C2A /* Tako.app */,
+				43A9656019B6E49900201C2A /* TakoTests.xctest */,
+				43A9657419B6F07600201C2A /* keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A9655019B6E49900201C2A /* Tako */ = {
+			isa = PBXGroup;
+			children = (
+				43A9655319B6E49900201C2A /* AppDelegate.swift */,
+				43A9655519B6E49900201C2A /* ViewController.swift */,
+				43A9655719B6E49900201C2A /* Main.storyboard */,
+				43A9655A19B6E49900201C2A /* Images.xcassets */,
+				43A9655119B6E49900201C2A /* Supporting Files */,
+			);
+			path = Tako;
+			sourceTree = "<group>";
+		};
+		43A9655119B6E49900201C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A9655219B6E49900201C2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A9656319B6E49900201C2A /* TakoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43A9656619B6E49900201C2A /* TakoTests.swift */,
+				43A9656419B6E49900201C2A /* Supporting Files */,
+			);
+			path = TakoTests;
+			sourceTree = "<group>";
+		};
+		43A9656419B6E49900201C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A9656519B6E49900201C2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A9657519B6F07600201C2A /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				43A9657819B6F07600201C2A /* KeyboardViewController.swift */,
+				43A9657619B6F07600201C2A /* Supporting Files */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		43A9657619B6F07600201C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A9657719B6F07600201C2A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A9654D19B6E49900201C2A /* Tako */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A9656A19B6E49900201C2A /* Build configuration list for PBXNativeTarget "Tako" */;
+			buildPhases = (
+				43A9654A19B6E49900201C2A /* Sources */,
+				43A9654B19B6E49900201C2A /* Frameworks */,
+				43A9654C19B6E49900201C2A /* Resources */,
+				43A9658219B6F07600201C2A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A9657B19B6F07600201C2A /* PBXTargetDependency */,
+				43A9657E19B6F07600201C2A /* PBXTargetDependency */,
+			);
+			name = Tako;
+			productName = Tako;
+			productReference = 43A9654E19B6E49900201C2A /* Tako.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43A9655F19B6E49900201C2A /* TakoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A9656D19B6E49900201C2A /* Build configuration list for PBXNativeTarget "TakoTests" */;
+			buildPhases = (
+				43A9655C19B6E49900201C2A /* Sources */,
+				43A9655D19B6E49900201C2A /* Frameworks */,
+				43A9655E19B6E49900201C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43A9656219B6E49900201C2A /* PBXTargetDependency */,
+			);
+			name = TakoTests;
+			productName = TakoTests;
+			productReference = 43A9656019B6E49900201C2A /* TakoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43A9657319B6F07600201C2A /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A9657F19B6F07600201C2A /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				43A9657019B6F07600201C2A /* Sources */,
+				43A9657119B6F07600201C2A /* Frameworks */,
+				43A9657219B6F07600201C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = 43A9657419B6F07600201C2A /* keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A9654619B6E49900201C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = tanjo.in;
+				TargetAttributes = {
+					43A9654D19B6E49900201C2A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					43A9655F19B6E49900201C2A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 43A9654D19B6E49900201C2A;
+					};
+					43A9657319B6F07600201C2A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 43A9654919B6E49900201C2A /* Build configuration list for PBXProject "Tako" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43A9654519B6E49900201C2A;
+			productRefGroup = 43A9654F19B6E49900201C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A9654D19B6E49900201C2A /* Tako */,
+				43A9655F19B6E49900201C2A /* TakoTests */,
+				43A9657319B6F07600201C2A /* keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A9654C19B6E49900201C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A9655919B6E49900201C2A /* Main.storyboard in Resources */,
+				43A9655B19B6E49900201C2A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9655E19B6E49900201C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9657219B6F07600201C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A9654A19B6E49900201C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A9655619B6E49900201C2A /* ViewController.swift in Sources */,
+				43A9655419B6E49900201C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9655C19B6E49900201C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A9656719B6E49900201C2A /* TakoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A9657019B6F07600201C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A9657919B6F07600201C2A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43A9656219B6E49900201C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A9654D19B6E49900201C2A /* Tako */;
+			targetProxy = 43A9656119B6E49900201C2A /* PBXContainerItemProxy */;
+		};
+		43A9657B19B6F07600201C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A9657319B6F07600201C2A /* keyboard */;
+			targetProxy = 43A9657A19B6F07600201C2A /* PBXContainerItemProxy */;
+		};
+		43A9657E19B6F07600201C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43A9657319B6F07600201C2A /* keyboard */;
+			targetProxy = 43A9657D19B6F07600201C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43A9655719B6E49900201C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A9655819B6E49900201C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A9656819B6E49900201C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43A9656919B6E49900201C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A9656B19B6E49900201C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tako/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43A9656C19B6E49900201C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Tako/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43A9656E19B6E49900201C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tako.app/Tako";
+			};
+			name = Debug;
+		};
+		43A9656F19B6E49900201C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TakoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tako.app/Tako";
+			};
+			name = Release;
+		};
+		43A9658019B6F07600201C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43A9658119B6F07600201C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A9654919B6E49900201C2A /* Build configuration list for PBXProject "Tako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A9656819B6E49900201C2A /* Debug */,
+				43A9656919B6E49900201C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A9656A19B6E49900201C2A /* Build configuration list for PBXNativeTarget "Tako" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A9656B19B6E49900201C2A /* Debug */,
+				43A9656C19B6E49900201C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A9656D19B6E49900201C2A /* Build configuration list for PBXNativeTarget "TakoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A9656E19B6E49900201C2A /* Debug */,
+				43A9656F19B6E49900201C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43A9657F19B6F07600201C2A /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A9658019B6F07600201C2A /* Debug */,
+				43A9658119B6F07600201C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A9654619B6E49900201C2A /* Project object */;
+}
